@@ -24,17 +24,17 @@ export class ListaLivrosComponent implements OnInit{
       this.generos = [
         {
         id: 'romance',
-        value: "Romance",
+        value: "Nostalgia",
         livros: this.livrosPorGenero.get("romance")?? []
         },
         {
         id: 'tecnicos',
-        value: "Tecnicos",
+        value: "Ação",
         livros: this.livrosPorGenero.get("tecnicos")?? []
         },
         {
         id: 'ficcao-cientifica',
-        value: "Ficção Científica",
+        value: "Terror/Suspense",
         livros: this.livrosPorGenero.get("ficcao-cientifica")?? []
         },
         {
@@ -44,7 +44,7 @@ export class ListaLivrosComponent implements OnInit{
         },
         {
         id: 'misterio',
-        value: "Misterio",
+        value: "Lançamentos",
         livros: this.livrosPorGenero.get("misterio")?? []
         },
       ]
